@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="iPhone 16 - O futuro está aqui. Descubra o novo iPhone 16 na TechPrime.">
+    <title>iPhone 16 - TechPrime</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Cabeçalho do site -->
+    <header class="cabecalho">
+        <nav class="navegacao container">
+            <div class="logo">TechPrime</div>
+            <ul class="menu">
+                <li><a href="./index.html">Início</a></li>
+                <li><a href="./produto.html">Produtos</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main class="conteudo-principal">
+        <div class="container">
+            <h1 class="titulo-principal titulo-contato">Entre em Contato</h1>
+            <p class="texto-padrao texto-intro">Estamos aqui para ajudar! Entre em contato conosco através dos canais abaixo.</p>
+            <!-- Formulário de contato -->
+            <div class="formulario-contato">
+                <h2 class="titulo-secao">Envie sua Mensagem</h2>
+                
+                <form class="form-contato">
+                    <div class="campo-grupo">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="campo-grupo">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="campo-grupo">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" name="telefone">
+                    </div>
+
+                    <div class="campo-grupo">
+                        <label for="assunto">Assunto</label>
+                        <select id="assunto" name="assunto" required>
+                            <option value="">Selecione um assunto</option>
+                            <option value="duvida">Dúvida sobre produto</option>
+                            <option value="suporte">Suporte técnico</option>
+                            <option value="compra">Informações de compra</option>
+                            <option value="reclamacao">Reclamação</option>
+                            <option value="sugestao">Sugestão</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+
+                    <div class="campo-grupo">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Digite sua mensagem aqui..."></textarea>
+                    </div>
+                    <button type="submit" class="botao-primario botao-enviar">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <div class="container">
+            Victor Hugo dos Santos Messias RA: 2576333
+        </div>
+    </footer>
+</body>
+</html>
